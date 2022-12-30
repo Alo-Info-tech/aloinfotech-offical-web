@@ -176,6 +176,15 @@ p.content {
 		<div class="imageContainer">
 			<img src="assets\images\christmas-6.jpeg" alt="">
 		</div>
+		<div class="imageContainer">
+			<img src="assets\images\christmas-7.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\christmas-8.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\christmas-9.jpeg" alt="">
+		</div>
 		<!-- <div class="imageContainer">
 			<img src="https://images.pexels.com/photos/5137664/pexels-photo-5137664.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
 		</div>
