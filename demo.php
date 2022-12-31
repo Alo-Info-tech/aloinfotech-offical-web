@@ -86,7 +86,9 @@ color: rgba(0, 0, 0, 0.6);
       font-size: 30px;
 
     }
-
+.bottomspace{
+  margin-bottom: 72px !important;
+}
     /* animation */
     .animated {
       -webkit-animation-duration: 10s;
@@ -320,10 +322,8 @@ img {
 .display-30 {
     font-size: 0.9rem;
 }
-.bottomspace{
 
-  margin-bottom: 72px !important;
-}
+
 /* .borderbox:hover {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px !important;
@@ -882,18 +882,18 @@ background: #3493CE;
             #carouselExampleControlsNoTouching {
     margin-top: 0px !important;
 }
+.landingbanner {
+  min-height:0px !important;
+    background: none !important;
+}
 .trust_row{
   padding: 21px 14px 13px 12px !important;
 }
 .bottomspace{
-margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 .container-fluid.mt-3.mb-5.p-0 {
     margin-bottom: -28px !important;
-}
-.landingbanner {
-  min-height:0px !important;
-    background: none !important;
 }
 .row.mt-5 {
     margin-top: -1px !important;
@@ -949,15 +949,15 @@ margin-bottom: 0px !important;
 #carouselExampleControlsNoTouching {
     margin-top: 55px !important;
 }
-.landingbanner {
-  min-height:0px !important;
-    background: none !important;
-}
 .trust_row{
   padding: 20px 19px 9px 12px !important;
 }
 .bottomspace{
-margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.landingbanner {
+  min-height:0px !important;
+    background: none !important;
 }
 .righttoleft {
       position: relative;
@@ -1052,22 +1052,19 @@ margin-bottom: 0px !important;
   overflow-x: hidden ;
 }
     }
-  
-    @media screen and (min-width: 1401px) and (max-width: 1500px){
+       @media screen and (min-width: 1401px) and (max-width: 1500px){
 
     .typing {
     margin-top: 58px !important;
   }
 }
-    
-
-    @media screen and (min-width:1501px) and (max-width:1920px) {
+  
+   @media screen and (min-width:1501px) and (max-width:1920px) {
       .typing {
     margin-top: 75px !important;
   }
 }
-
-
+  
         /* @media (min-width: 320px) and(max-width: 768px) { */
  
 
@@ -1112,8 +1109,7 @@ margin-bottom: 0px !important;
           </div>
         </div>
       </div>
-       
-    <marquee  behavior="scroll" direction="left">        
+      <marquee  behavior="scroll" direction="left">        
           <img src="assets\images\animated-santa-claus.gif" alt="santa"> 
     </marquee> 
     </div>
@@ -1165,7 +1161,7 @@ margin-bottom: 0px !important;
                 </div>
                 <div class="text-center text-sm-right borderbox lefttoright mt-4">
                     <div class="mb-4">
-                        <img src="assets/images/Team.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/team.png" alt="..." class="rounded-circle">
                     </div>
                     <h4 class="sub-info">Vibrant & Strategy</h4>
                     <p class="display-30 mb-0">We understand your brand and comeup with customized solutions.</p>
@@ -1181,7 +1177,7 @@ margin-bottom: 0px !important;
             <div class="pl-md-3">
                 <div class="text-center text-sm-left borderbox righttoleft mb-2-9">
                     <div class="mb-4">
-                        <img src="assets/images/Flexible_Timing.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/flexible_timing.png" alt="..." class="rounded-circle">
                     </div>
                     <h4 class="sub-info">Flexible Shedule And Timing</h4>
                     <p class="display-30 mb-0">Whatever we believe about ourselves and our ability comes true for us.</p>
@@ -1189,7 +1185,7 @@ margin-bottom: 0px !important;
 
                 <div class="text-center text-sm-left borderbox  righttoleft mt-4">
                     <div class="mb-4">
-                        <img src="assets/images/Holidays.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/holidays.png" alt="..." class="rounded-circle">
                     </div>
                     <h4 class="sub-info">vacation and holidays</h4>
                     <p class="display-30 mb-0 ">We are creating beautiful memories together that we'll remember for the rest of our lives.</p>
@@ -1441,7 +1437,7 @@ margin-bottom: 0px !important;
 
 <!-- ----- clients carousel ------ -->
 <div class="bottomspace">
-  <div class="container-fluid mt-3 mb-5 p-0">
+  <div class="container-fluid mt-3 mb-5  p-0">
     <h2 class="contentheading text-center mt-3 mb-5"><span class="color"><b>Customers </span> Who Love Us</b></h2>
     
 <div class="container-fluid p-0 mark-in ">
@@ -1510,7 +1506,6 @@ margin-bottom: 0px !important;
 		</div>
 		
 		
-		
 	</div>
 </div>
     </div>
@@ -1518,7 +1513,7 @@ margin-bottom: 0px !important;
         </div>
     </div>
   </div>
-
+  
   </div>
 <!-- ------ -->
 
