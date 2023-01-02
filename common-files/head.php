@@ -157,7 +157,9 @@ $('.no-touch .sitenavigation li').hover(
 
   <nav class="navbar " id="nav-fixed" >
     <div class="logo " >
-    <a href="index.php" ><img class="img-fluid" src="assets\images\alo-xamslogo.png" alt="Alo logo"></a>
+    <a href="index.php" >
+      <img class="img-fluid" src="assets\images\aloinfo_logo.png" alt="Alo logo">
+    </a>
     </div>
     <div class="mobile-btn">
     <button type="button" class=" btn btn-primary mt-1 header-center"><a href="request-for-services.php" style="color:white;">GET QUOTE</a> </button> 
