@@ -260,7 +260,7 @@ to our client and build a authentic relationship. This is a Best platform to cho
                     </p>
                 </div>
                 <div class="col-lg-5  col-md-12 about-2-secs-right mt-lg-0 mt-3">
-                    <img src="assets\images\brand.webp" alt="" class="img-fluid" />
+                    <img src="assets\images\brand.png" alt="" class="img-fluid"/>
                 </div>
             </div>
         </div>
