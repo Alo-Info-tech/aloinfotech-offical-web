@@ -223,6 +223,24 @@ p.content {
 		<div class="imageContainer">
 			<img src="assets\images\office-img-22.jpeg" alt="">
 		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-23.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-24.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-25.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-26.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-27.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\office-img-28.jpeg" alt="">
+		</div>
 
 	</div>
 

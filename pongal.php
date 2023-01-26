@@ -159,22 +159,40 @@ p.content {
     <h2 class="mt-4 fw-bolder text-center">Pongal</h2>
 	<div class="galleryContainer">
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-1.jpeg" alt="">
+			<img src="assets\images\pongal-img-1.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-2.jpeg" alt="">
+			<img src="assets\images\pongal-img-2.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-3.jpeg" alt="">
+			<img src="assets\images\pongal-img-3.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-4.jpeg" alt="">
+			<img src="assets\images\pongal-img-4.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-5.jpeg" alt="">
+			<img src="assets\images\pongal-img-5.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\pongal-img-6.jpeg" alt="">
+			<img src="assets\images\pongal-img-6.jpeg" alt="img">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-7.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-8.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-9.png" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-10.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-11.jpeg" alt="">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\pongal-img-12.jpeg" alt="">
 		</div>
 		<!-- <div class="imageContainer">
 			<img src="https://images.pexels.com/photos/5137664/pexels-photo-5137664.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
