@@ -17,7 +17,12 @@
 .body{
     font-family: poppins;
 }
-
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: none !important;
+}
 .bannerhead{
     margin-top: 100px !important;
     font-size: 47px;
@@ -141,8 +146,8 @@ p.content {
 
 .tab {
   float: left;
-  width: 30%;
-  height: 50px;
+  /* width: 30%;
+  height: 50px; */
   
 }
 
@@ -438,6 +443,19 @@ margin:0 5px;
 }
 
 }
+@media screen and (min-width:1921px) and (max-width: 4000px) {
+  #ourvalues{
+    display:none !important;
+}
+
+}
+
+@media screen and (min-width:4001px) and (max-width: 6000px) {
+  #ourvalues{
+    display:none !important;
+}
+
+}
 
 </style>
 
@@ -575,52 +593,53 @@ margin:0 5px;
                     </div>
                 </div>
 
+                
+        <!-- mbl -->
+    <div class="container mb-5" id="ourvalues">
+
+<div class="row mb-4 us">
+  <div class="col-lg-4 col-md-6 mb-lg-0">
+    <!-- Card-->
+    <div class="card reason">
+      <div class="card-body reason">
+      <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color">Our History</span></h3>
+       <!-- <img  class="img-fluid"  src="assets\images\history-mblview.png" alt="history-icon"> -->
+        <h5 class="choose">Alo infotech was started in the year of 2020 December with 3 members and zero clients & now we are 45+ employees with 75+ clients.</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6  mb-lg-0">
+    <!-- Card-->
+    <div class="card reason">
+      <div class="card-body reason">
+      <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color"> Our Vision</span></h3>
+       <!-- <img  class="img-fluid" src="assets\images\our_history.png" alt="history-icon"> -->
+        <h5 class="choose">Our Vision is to be a globally reputed IT company that to provide digital solutions to businesses with innovation and excellence.</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6  mb-lg-0">
+    <!-- Card-->
+    <div class="card reason ">
+      <div class="card-body reason ">
+      <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color"> Our Mission </span></h3>
+       <!-- <img  class="img-fluid"  src="assets\images\mission-mblview.png" alt="history-icon"> -->
+        <h5 class="choose">Our Mission is to make a positive and difference in the businesses of our customers through the best possible way.</h5>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+</div>
+<!-- ----- -->
 
                 </div>
     </div>
 
 
-        <!-- mbl -->
-    <div class="container mb-5" id="ourvalues">
-
-    <div class="row mb-4 us">
-      <div class="col-lg-4 col-md-6 mb-lg-0">
-        <!-- Card-->
-        <div class="card reason">
-          <div class="card-body reason">
-          <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color">Our History</span></h3>
-           <!-- <img  class="img-fluid"  src="assets\images\history-mblview.png" alt="history-icon"> -->
-            <h5 class="choose">Alo infotech was started in the year of 2020 December with 3 members and zero clients & now we are 45+ employees with 75+ clients.</h5>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6  mb-lg-0">
-        <!-- Card-->
-        <div class="card reason">
-          <div class="card-body reason">
-          <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color"> Our Vision</span></h3>
-           <!-- <img  class="img-fluid" src="assets\images\our_history.png" alt="history-icon"> -->
-            <h5 class="choose">Our Vision is to be a globally reputed IT company that to provide digital solutions to businesses with innovation and excellence.</h5>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6  mb-lg-0">
-        <!-- Card-->
-        <div class="card reason ">
-          <div class="card-body reason ">
-          <h3 class="value px-3 mt-3 text-center fw-bolder"><span class="color"> Our Mission </span></h3>
-           <!-- <img  class="img-fluid"  src="assets\images\mission-mblview.png" alt="history-icon"> -->
-            <h5 class="choose">Our Mission is to make a positive and difference in the businesses of our customers through the best possible way.</h5>
-          </div>
-        </div>
-      </div>
-     
-    </div>
-
-    </div>
-<!-- ----- -->
 
 
                     

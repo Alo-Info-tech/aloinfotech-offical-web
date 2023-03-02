@@ -18,6 +18,12 @@
     body {
        font-family: poppins;
     }
+    .btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: none !important;
+}
     a.bread {
     text-decoration: none;
     color: black;

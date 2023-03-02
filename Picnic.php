@@ -18,6 +18,12 @@
   padding-top: 167px;
   z-index: 99;
 }
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: none !important;
+}
 a.bread {
     text-decoration: none;
     color: black;
@@ -159,40 +165,43 @@ p.content {
     <h2 class="mt-4 fw-bolder text-center">Picnic</h2>
 	<div class="galleryContainer">
 		<div class="imageContainer">
-			<img src="assets\images\picnic-1.jpeg" alt="">
+			<img src="assets\images\picnic-1.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-2.jpeg" alt="">
+			<img src="assets\images\picnic-2.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
 			<img src="assets\images\picnic-3.jpeg" alt="">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-4.jpeg" alt="">
+			<img src="assets\images\picnic-4.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-5.jpeg" alt="">
+			<img src="assets\images\picnic-5.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-6.jpeg" alt="">
+			<img src="assets\images\picnic-6.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-7.jpeg" alt="">
+			<img src="assets\images\picnic-7.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-8.jpeg" alt="">
+			<img src="assets\images\picnic-8.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-9.jpeg" alt="">
+			<img src="assets\images\picnic-9.jpeg" alt="img">
 		</div>
         <div class="imageContainer">
-			<img src="assets\images\picnic-10.jpeg" alt="">
+			<img src="assets\images\picnic-10.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-11.jpeg" alt="">
+			<img src="assets\images\picnic-11.jpeg" alt="img">
 		</div>
 		<div class="imageContainer">
-			<img src="assets\images\picnic-12.jpeg" alt="">
+			<img src="assets\images\picnic-12.jpeg" alt="img">
+		</div>
+		<div class="imageContainer">
+			<img src="assets\images\picnic-13.jpeg" alt="img">
 		</div>
 	</div>
 

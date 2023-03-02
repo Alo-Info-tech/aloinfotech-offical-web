@@ -179,7 +179,12 @@ li.nav-dropdown {
 .menu-icon {
   display: none;
 }
- 
+.btn-primary:focus {
+  color: #fff;
+  background-color: #0b5ed7;
+  /* border-color: #0a58ca; */
+  box-shadow: none !important;
+}
 
   @media (min-width: 992px) {
   

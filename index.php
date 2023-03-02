@@ -24,6 +24,12 @@
     .fixed-top{
       background-color: white;
     }
+    button.btn.btn-primary.mt-2{
+    color: #fff;
+  background-color: #0b5ed7;
+  /* border-color: #0a58ca; */
+  box-shadow: none !important;
+  }
     .landingbanner {
       background: url(assets/images/landing-banner.png) no-repeat center !important;
       background-size: cover;
@@ -838,11 +844,17 @@ background: #3493CE;
       .carousel-indicators {
     display: none !important;
 }
+#customer{
+    display: none;
+  }
     }
     @media (max-width: 768px) {
       .carousel-indicators {
     display: none !important;
 }  
+#customer{
+    display: none;
+  }
     }
 
     @media (max-width: 950px) and (min-width: 450px) {
@@ -850,7 +862,9 @@ background: #3493CE;
         text-align: center;
         height: 180px;
       }
-    
+      #customer{
+    display: none;
+  }
 
     }
 
@@ -877,8 +891,19 @@ background: #3493CE;
       .container-fluid.pictureandcarousel.mt-5 {
     max-height: 630px !important;
 }
+#customer{
+    display: none;
+  }
 
     }
+    @media screen and (min-width:1200px) and (max-width: 1400px){
+      #customer{
+    display: none;
+  }
+
+    }
+
+
     @media screen and (min-width: 320px) and (max-width: 767px){
             #carouselExampleControlsNoTouching {
     margin-top: 0px !important;
@@ -940,6 +965,9 @@ background: #3493CE;
     .quatation {
     font-size: 12px;
     }
+    #customer{
+    display: none;
+  }
 
   }
   @media screen and (min-width: 768px) and (max-width: 991px){
@@ -989,6 +1017,9 @@ background: #3493CE;
 .typing {
     margin-top: 60px !important;
   }
+  #customer{
+    display: none;
+  }
 
 }
 
@@ -1017,6 +1048,9 @@ background: #3493CE;
       transform: none;
       opacity: 1;
     }
+    #customer{
+    display: none;
+  }
 
 
   }
@@ -1042,6 +1076,7 @@ background: #3493CE;
         width: 20%;
 
       }
+   
       /* .landingbanner {
         background: none !important;
       min-height:0px !important;
@@ -1058,16 +1093,38 @@ background: #3493CE;
     .typing {
     margin-top: 58px !important;
   }
+  #customer{
+    display: none;
+  }
 }
   
    @media screen and (min-width:1501px) and (max-width:1920px) {
       .typing {
     margin-top: 75px !important;
   }
+  #customer{
+    display: none;
+  }
 }
   
-        /* @media (min-width: 320px) and(max-width: 768px) { */
- 
+@media screen and (min-width:1921px) and (max-width: 4000px) {
+      .typing {
+    margin-top: 85px !important;
+  }
+  #customerslap-view{
+    display: none !important;
+  }
+
+}
+@media screen and (min-width:4001px) and (max-width: 6000px) {
+      .typing {
+    margin-top: 95px !important;
+  }
+  #customerslap-view{
+    display: none !important;
+  }
+
+}
 
   </style>
 
@@ -1078,12 +1135,13 @@ background: #3493CE;
 
 
   <div id="carousel" class="container-fluid pictureandcarousel mt-5">
-
     <div class="landingbanner p-0">
+<div class="container">
+
       <div class="row">
 
-        <div class="col-xl-6 col-lg-6 col-md-6 ">
-          <img src="assets\images\landingalobanner.png" class="img-fluid" alt="work image">
+        <div class="col-xl-6  col-lg-6 col-md-6 ">
+          <img src="assets\images\landingalobanner.png" class="img-fluid" alt="work image" style="float:right;">
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div id="carouselExampleControlsNoTouching" class="carousel slide p-4" data-bs-touch="false" data-bs-interval="false">
@@ -1113,6 +1171,7 @@ background: #3493CE;
       <!-- <marquee  behavior="scroll" direction="left">        
           <img src="assets\images\animated-santa-claus.gif" alt="santa"> 
     </marquee>  -->
+    </div>
     </div>
   </div>
 
@@ -1155,14 +1214,14 @@ background: #3493CE;
             <div class="pr-md-3">
                 <div class="text-center text-sm-right borderbox lefttoright mb-2-9">
                     <div class="mb-4">
-                        <img src="assets\images\experience.png" alt="..." class="rounded-circle">
+                        <img src="assets\images\experience.png" alt="img" class="rounded-circle">
                     </div>
                     <h4 class="sub-info">2+ years of experience</h4>
                     <p class="display-30 mb-0">We are a vibrant team of experienced digital enthusiasts who provide out-of-the-box ideas and solutions for our clients.</p>
                 </div>
                 <div class="text-center text-sm-right borderbox lefttoright mt-4">
                     <div class="mb-4">
-                        <img src="assets/images/team.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/team.png" alt="img" class="rounded-circle">
                     </div>
                     <h4 class="sub-info">Vibrant & Strategy</h4>
                     <p class="display-30 mb-0">We understand your brand and comeup with customized solutions.</p>
@@ -1171,14 +1230,14 @@ background: #3493CE;
         </div>
         <div class="col-lg-4 d-none d-lg-block mt-5">
             <div class="why-choose-center-image">
-                <img src="assets\images\chooseus.png" alt="..." class="">
+                <img src="assets\images\chooseus.png" alt="img" class="">
             </div>
         </div>
         <div class="col-sm-6 col-lg-4">
             <div class="pl-md-3">
                 <div class="text-center text-sm-left borderbox righttoleft mb-2-9">
                     <div class="mb-4">
-                        <img src="assets/images/flexible_timing.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/flexible_timing.png" alt="img" class="rounded-circle">
                     </div>
                     <h4 class="sub-info">Flexible Shedule And Timing</h4>
                     <p class="display-30 mb-0">Whatever we believe about ourselves and our ability comes true for us.</p>
@@ -1186,7 +1245,7 @@ background: #3493CE;
 
                 <div class="text-center text-sm-left borderbox  righttoleft mt-4">
                     <div class="mb-4">
-                        <img src="assets/images/holidays.png" alt="..." class="rounded-circle">
+                        <img src="assets/images/holidays.png" alt="img" class="rounded-circle">
                     </div>
                     <h4 class="sub-info">vacation and holidays</h4>
                     <p class="display-30 mb-0 ">We are creating beautiful memories together that we'll remember for the rest of our lives.</p>
@@ -1438,10 +1497,10 @@ background: #3493CE;
 
 <!-- ----- clients carousel ------ -->
 <div class="bottomspace">
-  <div class="container-fluid mt-3 mb-5  p-0">
+  <div class="container-fluid mt-3 mb-5  p-0" >
     <h2 class="contentheading text-center mt-3 mb-5"><span class="color"><b>Customers </span> Who Love Us</b></h2>
     
-<div class="container-fluid p-0 mark-in ">
+<div class="container-fluid p-0 mark-in "id="customerslap-view">
         <div class="container-fluid mt-5 mb-3 p-0">
             <div class="row m-0 p-0 d-flex">
                 <div class="col-md-3 trust_row">
@@ -1457,53 +1516,53 @@ background: #3493CE;
                 <div class="logo-slider p-0">
 	<div class="logo-slide-track">
 		<div class="slide">
-			<img src="assets\images\s7-logo-clients.png" alt="" />
+			<img src="assets\images\s7-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\at-logo-clients.png" alt="" />
+			<img src="assets\images\at-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\sealed-logo-clients.png" alt="" />
+			<img src="assets\images\sealed-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\asmoto-logo-clients.png" alt="" />
+			<img src="assets\images\asmoto-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\freshfish-logo-clients.png" alt="" />
+			<img src="assets\images\freshfish-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\johnson-logo-clients.png" alt="" />
+			<img src="assets\images\johnson-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\tvb-logo-clients.png" alt="" />
+			<img src="assets\images\tvb-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\rw-logo-clients.png" alt="" />
+			<img src="assets\images\rw-logo-clients.png" alt="img" />
 		</div>
 	
 		<div class="slide">
-			<img src="assets\images\s7-logo-clients.png" alt="" />
+			<img src="assets\images\s7-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\at-logo-clients.png" alt="" />
+			<img src="assets\images\at-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\sealed-logo-clients.png" alt="" />
+			<img src="assets\images\sealed-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\asmoto-logo-clients.png" alt="" />
+			<img src="assets\images\asmoto-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\freshfish-logo-clients.png" alt="" />
+			<img src="assets\images\freshfish-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\johnson-logo-clients.png" alt="" />
+			<img src="assets\images\johnson-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\tvb-logo-clients.png" alt="" />
+			<img src="assets\images\tvb-logo-clients.png" alt="img" />
 		</div>
 		<div class="slide">
-			<img src="assets\images\rw-logo-clients.png" alt="" />
+			<img src="assets\images\rw-logo-clients.png" alt="img" />
 		</div>
 		
 		
@@ -1515,6 +1574,81 @@ background: #3493CE;
     </div>
   </div>
   
+    
+<div class="container p-0 mark-in " id="customer">
+        <div class="container-fluid mt-5 mb-3 p-0">
+            <div class="row m-0 p-0 d-flex">
+                <div class="col-md-3 trust_row">
+                    <h3 class="border-right text-white">Trusted By</h3>
+                    <p class="text-white">Over 100+ businesses have trusted us in building & marketing applications that help their business.</p>
+
+                </div>
+
+
+
+                <div class="col-md-9 p-0">
+
+                <div class="logo-slider p-0">
+	<div class="logo-slide-track">
+		<div class="slide">
+			<img src="assets\images\s7-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\at-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\sealed-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\asmoto-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\freshfish-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\johnson-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\tvb-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\rw-logo-clients.png" alt="img" />
+		</div>
+	
+		<div class="slide">
+			<img src="assets\images\s7-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\at-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\sealed-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\asmoto-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\freshfish-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\johnson-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\tvb-logo-clients.png" alt="img" />
+		</div>
+		<div class="slide">
+			<img src="assets\images\rw-logo-clients.png" alt="img" />
+		</div>
+		
+		
+	</div>
+</div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+
   </div>
 <!-- ------ -->
 

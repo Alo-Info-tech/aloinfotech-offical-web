@@ -20,6 +20,12 @@
   padding-top: 167px;
   z-index: 99;
 }
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: none !important;
+}
 a.bread {
     text-decoration: none;
     color: black;

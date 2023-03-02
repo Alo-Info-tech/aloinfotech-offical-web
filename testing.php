@@ -19,6 +19,12 @@
   margin: 0px;
   box-sizing: border-box;
 }
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: none !important;
+}
 .w3l-breadcrumb {
   display: block;
   margin: 0 auto;
